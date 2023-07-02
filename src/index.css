@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 132, 86);
+  background-color: rgb(158, 170, 203);
+  /* color:rgb(246, 156, 138);; */
+  background-image: url("./resources/kgp.jpg");
+  font-weight: bolder;
+ 
+
+}
+
+.head_title {
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  
+  25%   {opacity: 25%;color: green;}
+  50%  {opacity:50%;color: blue;}
+  75%  {opacity: 75%;color:yellowgreen}
+  100%  {opacity: 100%;color: black;}
+}
